@@ -1,0 +1,35 @@
+async function startProgram() {
+	await speak('green light')
+	setMainLed({ g: 100, b: 0});
+	await delay(1);
+	await speak('red light')
+	setMainLed({r: 100, g: 0})
+	await delay(1)
+	await speak('green light')
+	setMainLed({g: 100, r: 0})
+	await delay(1)
+	await speak('red light')
+	setMainLed({r: 100, g: 0})
+    await speak('green light')
+	setMainLed({ g: 100, b: 0});
+	await delay(1);
+	await speak('red light')
+	setMainLed({r: 100, g: 0})
+	await delay(1)
+	await speak('green light')
+	setMainLed({g: 100, r: 0})
+	await delay(1)
+	await speak('red light')
+	setMainLed({r: 100, g: 0})
+    await speak('green light')
+	setMainLed({ g: 100, b: 0});
+	await delay(1);
+	await speak('red light')
+	setMainLed({r: 100, g: 0})
+	await delay(1)
+	await speak('green light')
+	setMainLed({g: 100, r: 0})
+	await delay(1)
+	await speak('red light')
+	setMainLed({r: 100, g: 0})
+}
